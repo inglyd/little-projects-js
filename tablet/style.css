@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+}
+
+.container{
+  max-width: 500px;
+  margin: 30px auto;
+  min-height: 500px;
+  padding: 30px;
+}
+
+.content {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.title {
+  color: #fff;
+  text-align: center;
+  margin: 10px 0 15px 0;
+}
+
+.btn-primary, .btn-default {
+  background-color: #0000ff;
+  color: #fff;
+  padding: 10px;
+  margin: 15px 0 0 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
