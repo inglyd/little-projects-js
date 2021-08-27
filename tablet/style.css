@@ -37,3 +37,10 @@ flex-direction: column;
   border: none;
 }
 
+.esconder {
+display: none;
+}
+
+.mostrar {
+display: block;
+}
