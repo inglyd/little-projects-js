@@ -7,18 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tablet</title>
   <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
   <div class="container">
     <h1 class="title">Projeto Tablet</h1>
     <div class="content">
-      <img src="images/tablet-desligado.jpg" alt=""  class="image">
+      <img class="mostrar" id="imagemDesligado" src="images/tablet-desligado.jpg" alt="Tablet desligado">
+      <img class="esconder"  id="imagemLigado" src="images/tablet-ligado.png" alt="Tablet ligado">
       <div class="btn">
-        <button class="btn-primary">Ligar</button>
-        <button class="btn-default">
+        <button id="botaoLigado"class="btn-primary">Ligar</button>
+        <button id="botaoDesligado"class="btn-default">
           Desligar
-        </button>v 
+        </button>
       </div>
 
     </div>
