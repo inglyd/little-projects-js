@@ -11,11 +11,11 @@ const peso = document.getElementById('peso').value;
 
   let classificacao = '';
   
-  if(valorIMC < 18.5) {
+  if(valorIMC <= 18.5) {
     classificacao = 'abaixo do peso'
   } else if (valorIMC < 25) {
     classificacao = 'dentro do peso'
-  } else if (valorIMC > 25) {
+  } else if (valorIMC >= 25) {
     classificacao = 'acima do peso'
   }   
   resultado.textContent = `${nome}, o seu IMC é ${valorIMC} e você está ${classificacao} ideal.`;
